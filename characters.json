@@ -1,0 +1,26 @@
+[
+  {
+  	"chapter": 2,
+    "ancestry": "Human Fighter",
+    "name": "Turok Kellid",
+    "gender": "male"
+  },
+  {
+  	"chapter": 3,
+    "ancestry": "Elf Sorcerer (diviner)",
+    "name": "Zazriel the Gleaming",
+    "gender": "male",
+  },
+  {
+
+  	"chapter": 5,
+    "ancestry": "Dwarf Barbarian",
+    "name": "Gertrud Stalagmight",
+    "gender": "female"
+  },
+  {
+  	"chapter": 6,
+    "ancestry": "Goblin Wizard",
+    "name": "Grikx, Son of Glert"
+  }
+]
