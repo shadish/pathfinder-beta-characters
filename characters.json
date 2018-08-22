@@ -1,26 +1,71 @@
 [
   {
-  	"chapter": 2,
-    "ancestry": "Human Fighter",
+    "chapter": 2,
+    "ancestry": "Human",
+    "class": "Fighter",
     "name": "Turok Kellid",
-    "gender": "male"
+    "gender": "male",
+    "ability_boosts": [
+      "Free, Free"
+    ],
+    "ability_flaw": null,
+    "key_ability_score": "DEX or STR",
+    "secondary_ability_scores": [
+      "CON"
+    ]
   },
   {
-  	"chapter": 3,
-    "ancestry": "Elf Sorcerer (diviner)",
+    "chapter": 3,
+    "ancestry": "Elf",
+    "class": "Sorcerer (diviner)",
     "name": "Zazriel the Gleaming",
     "gender": "male",
+    "ability_boosts": [
+      "DEX",
+      "INT",
+      "Free"
+    ],
+    "ability_flaw": "CON",
+    "key_ability_score": "CHR",
+    "secondary_ability_score": [
+      "DEX",
+      "CON"
+    ]
   },
   {
-
-  	"chapter": 5,
-    "ancestry": "Dwarf Barbarian",
+    "chapter": 5,
+    "ancestry": "Dwarf",
+    "class": "Barbarian",
     "name": "Gertrud Stalagmight",
-    "gender": "female"
+    "gender": "female",
+    "ability_boosts": [
+      "CON",
+      "WIS",
+      "Free"
+    ],
+    "ability_flaw": "CHR",
+    "key_ability_score": "STR",
+    "secondary_ability_score": [
+      "CON",
+      "DEX"
+    ]
   },
   {
-  	"chapter": 6,
-    "ancestry": "Goblin Wizard",
-    "name": "Grikx, Son of Glert"
+    "chapter": 6,
+    "ancestry": "Goblin",
+    "class": "Wizard",
+    "name": "Grikx, Son of Glert",
+    "gender": "male",
+    "ability_boosts": [
+      "DEX",
+      "CHR",
+      "Free"
+    ],
+    "ability_flaw": "WIS",
+    "key_ability_score": "INT",
+    "secondary_ability_score": [
+      "DEX",
+      "CON"
+    ]
   }
 ]
