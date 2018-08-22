@@ -5,6 +5,7 @@
     "class": "Fighter",
     "name": "Turok Kellid",
     "gender": "male",
+    "background": "Nomad (boost two, one must be CON or WIS)"
     "ability_boosts": [
       "Free, Free"
     ],
@@ -12,6 +13,10 @@
     "key_ability_score": "DEX or STR",
     "secondary_ability_scores": [
       "CON"
+    ],
+    "abilities": [
+    	"Assurance skill feat with Survival",
+    	"Mountain Lore"
     ]
   },
   {
@@ -20,6 +25,7 @@
     "class": "Sorcerer (diviner)",
     "name": "Zazriel the Gleaming",
     "gender": "male",
+    "background": "Noble (boost two, one must be INT or CHR, and one is free)",
     "ability_boosts": [
       "DEX",
       "INT",
@@ -30,6 +36,10 @@
     "secondary_ability_score": [
       "DEX",
       "CON"
+    ],
+    "abilities": [
+    	"Courtly Graces",
+    	"Nobility Lore"
     ]
   },
   {
@@ -38,6 +48,7 @@
     "class": "Barbarian",
     "name": "Gertrud Stalagmight",
     "gender": "female",
+    "background": "Gladiator (boost two, one must be STR or CHR, and one is free)",
     "ability_boosts": [
       "CON",
       "WIS",
@@ -48,6 +59,10 @@
     "secondary_ability_score": [
       "CON",
       "DEX"
+    ],
+    "abilities": [
+    	"Fascinating Performance",
+    	"Gladiatorial Lore"
     ]
   },
   {
@@ -56,6 +71,7 @@
     "class": "Wizard",
     "name": "Grikx, Son of Glert",
     "gender": "male",
+    "background": "Scholar (boot two, one must be INT or WIS, and one is free)",
     "ability_boosts": [
       "DEX",
       "CHR",
@@ -66,6 +82,10 @@
     "secondary_ability_score": [
       "DEX",
       "CON"
+    ],
+    "abilities": [
+    	"Assurance skill in Arcana",
+    	"Academia Lore"
     ]
   }
 ]
