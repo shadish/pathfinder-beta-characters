@@ -5,7 +5,7 @@
     "class": "Fighter",
     "name": "Turok Kellid",
     "gender": "male",
-    "background": "Nomad (boost two, one must be CON or WIS)"
+    "background": "Nomad (boost two, one must be CON or WIS)",
     "ability_boosts": [
       "Free, Free"
     ],
@@ -17,7 +17,15 @@
     "abilities": [
     	"Assurance skill feat with Survival",
     	"Mountain Lore"
-    ]
+    ],
+    "ability_scores": {
+    	"STR":14,
+    	"DEX":14,
+    	"CON":18,
+    	"INT":10,
+    	"WIS":12,
+    	"CHR":10
+    }
   },
   {
     "chapter": 3,
@@ -40,7 +48,15 @@
     "abilities": [
     	"Courtly Graces",
     	"Nobility Lore"
-    ]
+    ],
+    "ability_scores": {
+    	"STR":12,
+    	"DEX":14,
+    	"CON":10,
+    	"INT":16,
+    	"WIS":14,
+    	"CHR":16
+    }
   },
   {
     "chapter": 5,
@@ -63,7 +79,15 @@
     "abilities": [
     	"Fascinating Performance",
     	"Gladiatorial Lore"
-    ]
+    ],
+    "ability_scores": {
+    	"STR":18,
+    	"DEX":14,
+    	"CON":16,
+    	"INT":10,
+    	"WIS":12,
+    	"CHR":12
+    }
   },
   {
     "chapter": 6,
@@ -86,6 +110,14 @@
     "abilities": [
     	"Assurance skill in Arcana",
     	"Academia Lore"
-    ]
+    ],
+    "ability_scores": {
+    	"STR":10,
+    	"DEX":14,
+    	"CON":14,
+    	"INT":16,
+    	"WIS":10,
+    	"CHR":14
+    }
   }
 ]
