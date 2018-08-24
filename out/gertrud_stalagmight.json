@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "gender": "female",
+  "abilities": [
+    "Fascinating Performance",
+    "Gladiatorial Lore"
+  ],
+  "ancestry": "Dwarf",
+  "background": "Gladiator",
+  "class": "Barbarian",
+  "attributes": {
+    "STR": 14,
+    "DEX": 12,
+    "CON": 12,
+    "INT": 12,
+    "WIS": 14,
+    "CHR": 12
+  },
+  "name": "Gertrud Stalagmight"
+}

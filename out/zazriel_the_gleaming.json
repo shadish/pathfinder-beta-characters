@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "name": "Zazriel the Gleaming",
+  "gender": "male",
+  "abilities": [
+    "Courtly Graces",
+    "Nobility Lore"
+  ],
+  "ancestry": "Elf",
+  "background": "Noble",
+  "class": "Sorcerer (diviner)",
+  "attributes": {
+    "STR": 10,
+    "DEX": 14,
+    "CON": 8,
+    "INT": 16,
+    "WIS": 14,
+    "CHR": 14
+  }
+}

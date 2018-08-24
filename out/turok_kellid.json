@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "gender": "male",
+  "abilities": [
+    "Assurance skill feat with Survival",
+    "Mountain Lore"
+  ],
+  "ancestry": "Human",
+  "background": "Nomad",
+  "class": "Fighter",
+  "attributes": {
+    "STR": 16,
+    "DEX": 14,
+    "CON": 14,
+    "INT": 10,
+    "WIS": 12,
+    "CHR": 12
+  },
+  "name": "Turok Kellid"
+}
