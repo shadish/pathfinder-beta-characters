@@ -1,11 +1,10 @@
-[
-  {
+{
+  "Turok Kellid": {
     "chapter": 2,
-    "name": "Turok Kellid",
     "gender": "male",
     "abilities": [
-    	"Assurance skill feat with Survival",
-    	"Mountain Lore"
+      "Assurance skill feat with Survival",
+      "Mountain Lore"
     ],
     "ability_flaws": [
       {
@@ -17,132 +16,187 @@
       {
         "key": "ancestry",
         "name": "Human",
-        "selected": ["STR", "DEX"]
+        "selected": [
+          "STR",
+          "DEX"
+        ]
       },
       {
         "key": "background",
         "name": "Nomad",
-        "selected": ["CON", "WIS"]
+        "selected": [
+          "CON",
+          "WIS"
+        ]
       },
       {
         "key": "free",
-        "selected": ["STR", "CON", "DEX", "CHR"]
+        "selected": [
+          "STR",
+          "CON",
+          "DEX",
+          "CHR"
+        ]
       },
       {
         "key": "class",
         "name": "Fighter",
-        "selected": ["STR"]
+        "selected": [
+          "STR"
+        ]
       }
     ]
   },
-  {
+  "Zazriel the Gleaming": {
     "chapter": 3,
-    "name": "Zazriel the Gleaming",
+    "name": "",
     "gender": "male",
     "abilities": [
-    	"Courtly Graces",
-    	"Nobility Lore"
+      "Courtly Graces",
+      "Nobility Lore"
     ],
     "ability_flaws": [
       {
         "key": "ability_flaw",
-        "selected": ["CON"]
+        "selected": [
+          "CON"
+        ]
       }
     ],
     "ability_boosts": [
       {
         "key": "ancestry",
         "name": "Elf",
-        "selected": ["DEX","INT"]
+        "selected": [
+          "DEX",
+          "INT"
+        ]
       },
       {
         "key": "background",
         "name": "Noble",
-        "selected": ["INT", "WIS"]
+        "selected": [
+          "INT",
+          "WIS"
+        ]
       },
       {
         "key": "free",
-        "selected": ["INT", "WIS", "DEX", "CHR"]
+        "selected": [
+          "INT",
+          "WIS",
+          "DEX",
+          "CHR"
+        ]
       },
       {
         "key": "class",
         "name": "Sorcerer (diviner)",
-        "selected": ["CHR"]
+        "selected": [
+          "CHR"
+        ]
       }
     ]
   },
-  {
+  "Gertrud Stalagmight": {
     "chapter": 5,
-    "name": "Gertrud Stalagmight",
     "gender": "female",
     "abilities": [
-    	"Fascinating Performance",
-    	"Gladiatorial Lore"
+      "Fascinating Performance",
+      "Gladiatorial Lore"
     ],
     "ability_flaws": [
       {
         "key": "ability_flaw",
-        "selected": ["CHR"]
+        "selected": [
+          "CHR"
+        ]
       }
     ],
     "ability_boosts": [
       {
         "key": "ancestry",
         "name": "Dwarf",
-        "selected": ["CON", "WIS"]
+        "selected": [
+          "CON",
+          "WIS"
+        ]
       },
       {
         "key": "background",
         "name": "Gladiator",
-        "selected": ["STR","CHR"]
+        "selected": [
+          "STR",
+          "CHR"
+        ]
       },
       {
         "key": "free",
-        "selected": ["INT", "WIS", "DEX", "CHR"]
+        "selected": [
+          "INT",
+          "WIS",
+          "DEX",
+          "CHR"
+        ]
       },
       {
         "key": "class",
         "name": "Barbarian",
-        "selected": ["STR"]
+        "selected": [
+          "STR"
+        ]
       }
     ]
-  
   },
-  {
+  "Grikx, Son of Glert": {
     "chapter": 6,
     "ancestry": "Goblin",
-    "name": "Grikx, Son of Glert",
     "gender": "male",
     "abilities": [
-    	"Assurance skill in Arcana",
-    	"Academia Lore"
+      "Assurance skill in Arcana",
+      "Academia Lore"
     ],
-   ,"ability_flaws": [
+    "ability_flaws": [
       {
         "key": "ability_flaw",
-        "selected": ["WIS"]
+        "selected": [
+          "WIS"
+        ]
       }
     ],
     "ability_boosts": [
       {
         "key": "ancestry",
         "name": "Goblin",
-        "selected": ["DEX", "CHR"]
+        "selected": [
+          "DEX",
+          "CHR"
+        ]
       },
       {
         "key": "background",
         "name": "Scholar",
-        "selected": ["INT", "WIS"]
+        "selected": [
+          "INT",
+          "WIS"
+        ]
       },
       {
         "key": "free",
-        "selected": ["INT", "WIS", "DEX", "CHR"]
+        "selected": [
+          "INT",
+          "WIS",
+          "DEX",
+          "CHR"
+        ]
       },
       {
         "key": "class",
         "name": "Wizard",
-        "selected": ["INT"]
+        "selected": [
+          "INT"
+        ]
       }
     ]
   }
-]
+}
