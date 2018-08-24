@@ -1,123 +1,148 @@
 [
   {
     "chapter": 2,
-    "ancestry": "Human",
-    "class": "Fighter",
     "name": "Turok Kellid",
     "gender": "male",
-    "background": "Nomad (boost two, one must be CON or WIS)",
-    "ability_boosts": [
-      "Free, Free"
-    ],
-    "ability_flaw": null,
-    "key_ability_score": "DEX or STR",
-    "secondary_ability_scores": [
-      "CON"
-    ],
     "abilities": [
     	"Assurance skill feat with Survival",
     	"Mountain Lore"
     ],
-    "ability_scores": {
-    	"STR":14,
-    	"DEX":14,
-    	"CON":18,
-    	"INT":10,
-    	"WIS":12,
-    	"CHR":10
-    }
+    "ability_flaws": [
+      {
+        "key": "ability_flaw",
+        "selected": []
+      }
+    ],
+    "ability_boosts": [
+      {
+        "key": "ancestry",
+        "name": "Human",
+        "selected": ["STR", "DEX"]
+      },
+      {
+        "key": "background",
+        "name": "Nomad",
+        "selected": ["CON", "WIS"]
+      },
+      {
+        "key": "free",
+        "selected": ["STR", "CON", "DEX", "CHR"]
+      },
+      {
+        "key": "class",
+        "name": "Fighter",
+        "selected": ["STR"]
+      }
+    ]
   },
   {
     "chapter": 3,
-    "ancestry": "Elf",
-    "class": "Sorcerer (diviner)",
     "name": "Zazriel the Gleaming",
     "gender": "male",
-    "background": "Noble (boost two, one must be INT or CHR, and one is free)",
-    "ability_boosts": [
-      "DEX",
-      "INT",
-      "Free"
-    ],
-    "ability_flaw": "CON",
-    "key_ability_score": "CHR",
-    "secondary_ability_score": [
-      "DEX",
-      "CON"
-    ],
     "abilities": [
     	"Courtly Graces",
     	"Nobility Lore"
     ],
-    "ability_scores": {
-    	"STR":12,
-    	"DEX":14,
-    	"CON":10,
-    	"INT":16,
-    	"WIS":14,
-    	"CHR":16
-    }
+    "ability_flaws": [
+      {
+        "key": "ability_flaw",
+        "selected": ["CON"]
+      }
+    ],
+    "ability_boosts": [
+      {
+        "key": "ancestry",
+        "name": "Elf",
+        "selected": ["DEX","INT"]
+      },
+      {
+        "key": "background",
+        "name": "Noble",
+        "selected": ["INT", "WIS"]
+      },
+      {
+        "key": "free",
+        "selected": ["INT", "WIS", "DEX", "CHR"]
+      },
+      {
+        "key": "class",
+        "name": "Sorcerer (diviner)",
+        "selected": ["CHR"]
+      }
+    ]
   },
   {
     "chapter": 5,
-    "ancestry": "Dwarf",
-    "class": "Barbarian",
     "name": "Gertrud Stalagmight",
     "gender": "female",
-    "background": "Gladiator (boost two, one must be STR or CHR, and one is free)",
-    "ability_boosts": [
-      "CON",
-      "WIS",
-      "Free"
-    ],
-    "ability_flaw": "CHR",
-    "key_ability_score": "STR",
-    "secondary_ability_score": [
-      "CON",
-      "DEX"
-    ],
     "abilities": [
     	"Fascinating Performance",
     	"Gladiatorial Lore"
     ],
-    "ability_scores": {
-    	"STR":18,
-    	"DEX":14,
-    	"CON":16,
-    	"INT":10,
-    	"WIS":12,
-    	"CHR":12
-    }
+    "ability_flaws": [
+      {
+        "key": "ability_flaw",
+        "selected": ["CHR"]
+      }
+    ],
+    "ability_boosts": [
+      {
+        "key": "ancestry",
+        "name": "Dwarf",
+        "selected": ["CON", "WIS"]
+      },
+      {
+        "key": "background",
+        "name": "Gladiator",
+        "selected": ["STR","CHR"]
+      },
+      {
+        "key": "free",
+        "selected": ["INT", "WIS", "DEX", "CHR"]
+      },
+      {
+        "key": "class",
+        "name": "Barbarian",
+        "selected": ["STR"]
+      }
+    ]
+  
   },
   {
     "chapter": 6,
     "ancestry": "Goblin",
-    "class": "Wizard",
     "name": "Grikx, Son of Glert",
     "gender": "male",
-    "background": "Scholar (boot two, one must be INT or WIS, and one is free)",
-    "ability_boosts": [
-      "DEX",
-      "CHR",
-      "Free"
-    ],
-    "ability_flaw": "WIS",
-    "key_ability_score": "INT",
-    "secondary_ability_score": [
-      "DEX",
-      "CON"
-    ],
     "abilities": [
     	"Assurance skill in Arcana",
     	"Academia Lore"
     ],
-    "ability_scores": {
-    	"STR":10,
-    	"DEX":14,
-    	"CON":14,
-    	"INT":16,
-    	"WIS":10,
-    	"CHR":14
-    }
+   ,"ability_flaws": [
+      {
+        "key": "ability_flaw",
+        "selected": ["WIS"]
+      }
+    ],
+    "ability_boosts": [
+      {
+        "key": "ancestry",
+        "name": "Goblin",
+        "selected": ["DEX", "CHR"]
+      },
+      {
+        "key": "background",
+        "name": "Scholar",
+        "selected": ["INT", "WIS"]
+      },
+      {
+        "key": "free",
+        "selected": ["INT", "WIS", "DEX", "CHR"]
+      },
+      {
+        "key": "class",
+        "name": "Wizard",
+        "selected": ["INT"]
+      }
+    ]
   }
 ]
