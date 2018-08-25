@@ -5,10 +5,7 @@
     "Fascinating Performance",
     "Gladiatorial Lore"
   ],
-  "hit_points": {
-    "base": 12,
-    "mod": "CON"
-  },
+  "hit_points": 13,
   "ancestry": "Dwarf",
   "background": "Gladiator",
   "class": "Barbarian",

@@ -6,10 +6,7 @@
     "Assurance skill in Arcana",
     "Academia Lore"
   ],
-  "hit_points": {
-    "base": 6,
-    "mod": "CON"
-  },
+  "hit_points": 6,
   "background": "Scholar",
   "class": "Wizard",
   "attributes": {

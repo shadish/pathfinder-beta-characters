@@ -36,8 +36,11 @@ characters.each do |k,c|
 	c['attributes'] = attributes
 
 	c['name'] = k
+	
 	c.delete('ability_flaws')
 	c.delete('ability_boosts')
+	hp_mod = attributes.select{|k,v| k === 'CON'}.first.last['mod'].to_i
+	c['hit_points'] = c['hit_points']['base'] + hp_mod
 
 	file_name = "./out/#{k.gsub(/\W/,'_').downcase}.json"
 	File.write file_name, JSON::pretty_generate(c)

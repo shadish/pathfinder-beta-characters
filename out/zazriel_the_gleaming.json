@@ -6,10 +6,7 @@
     "Courtly Graces",
     "Nobility Lore"
   ],
-  "hit_points": {
-    "base": 6,
-    "mod": "CON"
-  },
+  "hit_points": 5,
   "ancestry": "Elf",
   "background": "Noble",
   "class": "Sorcerer (diviner)",

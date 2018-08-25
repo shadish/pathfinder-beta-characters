@@ -5,10 +5,7 @@
     "Assurance skill feat with Survival",
     "Mountain Lore"
   ],
-  "hit_points": {
-    "base": 10,
-    "mod": "CON"
-  },
+  "hit_points": 12,
   "class_details": {
     "trained": [
 
