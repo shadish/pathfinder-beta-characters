@@ -5,16 +5,57 @@
     "Assurance skill feat with Survival",
     "Mountain Lore"
   ],
+  "hit_points": {
+    "base": 10,
+    "mod": "CON"
+  },
+  "class_details": {
+    "trained": [
+
+    ],
+    "expert": [
+
+    ],
+    "master": [
+
+    ],
+    "legendary": [
+
+    ]
+  },
+  "currency": 1.5,
+  "alignment": "NG",
+  "age": 18,
+  "ac": 10,
+  "tac": 10,
   "ancestry": "Human",
   "background": "Nomad",
   "class": "Fighter",
   "attributes": {
-    "STR": 16,
-    "DEX": 14,
-    "CON": 14,
-    "INT": 10,
-    "WIS": 12,
-    "CHR": 12
+    "STR": {
+      "base": 16,
+      "mod": 3
+    },
+    "DEX": {
+      "base": 14,
+      "mod": 2
+    },
+    "CON": {
+      "base": 14,
+      "mod": 2
+    },
+    "INT": {
+      "base": 10,
+      "mod": 0
+    },
+    "WIS": {
+      "base": 12,
+      "mod": 1
+    },
+    "CHR": {
+      "base": 12,
+      "mod": 1
+    }
   },
   "name": "Turok Kellid"
 }

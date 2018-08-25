@@ -5,16 +5,38 @@
     "Fascinating Performance",
     "Gladiatorial Lore"
   ],
+  "hit_points": {
+    "base": 12,
+    "mod": "CON"
+  },
   "ancestry": "Dwarf",
   "background": "Gladiator",
   "class": "Barbarian",
   "attributes": {
-    "STR": 14,
-    "DEX": 12,
-    "CON": 12,
-    "INT": 12,
-    "WIS": 14,
-    "CHR": 12
+    "STR": {
+      "base": 14,
+      "mod": 2
+    },
+    "DEX": {
+      "base": 12,
+      "mod": 1
+    },
+    "CON": {
+      "base": 12,
+      "mod": 1
+    },
+    "INT": {
+      "base": 12,
+      "mod": 1
+    },
+    "WIS": {
+      "base": 14,
+      "mod": 2
+    },
+    "CHR": {
+      "base": 12,
+      "mod": 1
+    }
   },
   "name": "Gertrud Stalagmight"
 }

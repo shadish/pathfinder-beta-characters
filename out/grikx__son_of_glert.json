@@ -6,15 +6,37 @@
     "Assurance skill in Arcana",
     "Academia Lore"
   ],
+  "hit_points": {
+    "base": 6,
+    "mod": "CON"
+  },
   "background": "Scholar",
   "class": "Wizard",
   "attributes": {
-    "STR": 10,
-    "DEX": 14,
-    "CON": 10,
-    "INT": 16,
-    "WIS": 12,
-    "CHR": 14
+    "STR": {
+      "base": 10,
+      "mod": 0
+    },
+    "DEX": {
+      "base": 14,
+      "mod": 2
+    },
+    "CON": {
+      "base": 10,
+      "mod": 0
+    },
+    "INT": {
+      "base": 16,
+      "mod": 3
+    },
+    "WIS": {
+      "base": 12,
+      "mod": 1
+    },
+    "CHR": {
+      "base": 14,
+      "mod": 2
+    }
   },
   "name": "Grikx, Son of Glert"
 }

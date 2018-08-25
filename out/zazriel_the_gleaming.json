@@ -6,15 +6,37 @@
     "Courtly Graces",
     "Nobility Lore"
   ],
+  "hit_points": {
+    "base": 6,
+    "mod": "CON"
+  },
   "ancestry": "Elf",
   "background": "Noble",
   "class": "Sorcerer (diviner)",
   "attributes": {
-    "STR": 10,
-    "DEX": 14,
-    "CON": 8,
-    "INT": 16,
-    "WIS": 14,
-    "CHR": 14
+    "STR": {
+      "base": 10,
+      "mod": 0
+    },
+    "DEX": {
+      "base": 14,
+      "mod": 2
+    },
+    "CON": {
+      "base": 8,
+      "mod": -1
+    },
+    "INT": {
+      "base": 16,
+      "mod": 3
+    },
+    "WIS": {
+      "base": 14,
+      "mod": 2
+    },
+    "CHR": {
+      "base": 14,
+      "mod": 2
+    }
   }
 }
