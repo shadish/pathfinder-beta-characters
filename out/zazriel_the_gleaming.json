@@ -1,12 +1,6 @@
 {
   "chapter": 3,
   "name": "Zazriel the Gleaming",
-  "gender": "male",
-  "abilities": [
-    "Courtly Graces",
-    "Nobility Lore"
-  ],
-  "hit_points": 5,
   "ancestry": "Elf",
   "background": "Noble",
   "class": "Sorcerer (diviner)",
@@ -35,5 +29,11 @@
       "base": 14,
       "mod": 2
     }
-  }
+  },
+  "hit_points": 5,
+  "abilities": [
+    "Courtly Graces",
+    "Nobility Lore"
+  ],
+  "gender": "male"
 }

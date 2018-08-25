@@ -1,12 +1,7 @@
 {
   "chapter": 6,
+  "name": "Grikx, Son of Glert",
   "ancestry": "Goblin",
-  "gender": "male",
-  "abilities": [
-    "Assurance skill in Arcana",
-    "Academia Lore"
-  ],
-  "hit_points": 6,
   "background": "Scholar",
   "class": "Wizard",
   "attributes": {
@@ -35,5 +30,10 @@
       "mod": 2
     }
   },
-  "name": "Grikx, Son of Glert"
+  "hit_points": 6,
+  "abilities": [
+    "Assurance skill in Arcana",
+    "Academia Lore"
+  ],
+  "gender": "male"
 }

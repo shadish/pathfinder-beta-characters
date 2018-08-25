@@ -1,11 +1,6 @@
 {
   "chapter": 5,
-  "gender": "female",
-  "abilities": [
-    "Fascinating Performance",
-    "Gladiatorial Lore"
-  ],
-  "hit_points": 13,
+  "name": "Gertrud Stalagmight",
   "ancestry": "Dwarf",
   "background": "Gladiator",
   "class": "Barbarian",
@@ -35,5 +30,10 @@
       "mod": 1
     }
   },
-  "name": "Gertrud Stalagmight"
+  "abilities": [
+    "Fascinating Performance",
+    "Gladiatorial Lore"
+  ],
+  "hit_points": 13,
+  "gender": "female"
 }

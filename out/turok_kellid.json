@@ -1,11 +1,10 @@
 {
   "chapter": 2,
-  "gender": "male",
-  "abilities": [
-    "Assurance skill feat with Survival",
-    "Mountain Lore"
-  ],
-  "hit_points": 12,
+  "name": "Turok Kellid",
+  "ancestry": "Human",
+  "age": 18,
+  "background": "Nomad",
+  "class": "Fighter",
   "class_details": {
     "trained": [
 
@@ -20,14 +19,6 @@
 
     ]
   },
-  "currency": 1.5,
-  "alignment": "NG",
-  "age": 18,
-  "ac": 10,
-  "tac": 10,
-  "ancestry": "Human",
-  "background": "Nomad",
-  "class": "Fighter",
   "attributes": {
     "STR": {
       "base": 16,
@@ -54,5 +45,14 @@
       "mod": 1
     }
   },
-  "name": "Turok Kellid"
+  "ac": 10,
+  "tac": 10,
+  "abilities": [
+    "Assurance skill feat with Survival",
+    "Mountain Lore"
+  ],
+  "gender": "male",
+  "hit_points": 12,
+  "alignment": "NG",
+  "currency": 1.5
 }
