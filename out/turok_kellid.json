@@ -45,14 +45,15 @@
       "mod": 1
     }
   },
-  "ac": 10,
-  "tac": 10,
+  "ac-touch": 12,
+  "gender": "male",
   "abilities": [
     "Assurance skill feat with Survival",
     "Mountain Lore"
   ],
-  "gender": "male",
   "hit_points": 12,
+  "currency": 1.5,
   "alignment": "NG",
-  "currency": 1.5
+  "ac": 12,
+  "tac": 10
 }

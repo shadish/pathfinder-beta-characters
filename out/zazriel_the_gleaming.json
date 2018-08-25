@@ -30,10 +30,12 @@
       "mod": 2
     }
   },
-  "hit_points": 5,
+  "ac": 12,
   "abilities": [
     "Courtly Graces",
     "Nobility Lore"
   ],
+  "ac-touch": 12,
+  "hit_points": 5,
   "gender": "male"
 }

@@ -2,18 +2,9 @@ require 'json'
 require_relative './parse_attributes'
 require_relative './sort_keys'
 
-
-
-# def mod(attr, mods)
-# 	low = mods.first.values[0]
-# 	mods.each do |m|
-# 		if m.keys[0].to_i > attr
-# 			return low
-# 		end
-# 		low = m.values[0].to_i
-# 	end	
-# 	7
-# end
+def get_mod(c, mod)
+	c['attributes'].select{|k,v| k === mod}.first.last['mod'].to_i
+end
 
 characters = JSON::parse File.open('./characters.json').read()
 characters.each do |k,c|
@@ -24,12 +15,17 @@ characters.each do |k,c|
 	c = parse_attributes(c)
 
 	# caculate hit points
-	hp_mod = c['attributes'].select{|k,v| k === 'CON'}.first.last['mod'].to_i
+	hp_mod = get_mod(c,'CON')
 	c['hit_points'] = c['hit_points']['base'] + hp_mod
 
 	# remove unused properties
 	c.delete('ability_flaws')
 	c.delete('ability_boosts')
+
+	# calculate AC
+	c['ac'] = 10 + get_mod(c,'DEX')
+	c['ac-touch'] = 10 + get_mod(c,'DEX')
+	#TODO: page 16 TAC with armor
 
 	# sort keys
 	c = sort_keys(c)

@@ -30,10 +30,12 @@
       "mod": 1
     }
   },
+  "ac": 11,
+  "hit_points": 13,
+  "ac-touch": 11,
   "abilities": [
     "Fascinating Performance",
     "Gladiatorial Lore"
   ],
-  "hit_points": 13,
   "gender": "female"
 }

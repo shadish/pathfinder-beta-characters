@@ -30,10 +30,12 @@
       "mod": 2
     }
   },
-  "hit_points": 6,
+  "gender": "male",
+  "ac-touch": 12,
   "abilities": [
     "Assurance skill in Arcana",
     "Academia Lore"
   ],
-  "gender": "male"
+  "hit_points": 6,
+  "ac": 12
 }
