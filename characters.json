@@ -50,6 +50,7 @@
       "base": 10,
       "mod": "CON"
     },
+    "levels": [],
     "class_details": {
       "trained": [],
       "expert": [],
@@ -58,9 +59,7 @@
     },
     "currency": 1.5,
     "alignment": "NG",
-    "age": 18, 
-    "ac": 10,
-    "tac": 10
+    "age": 18
   },
   "Zazriel the Gleaming": {
     "chapter": 3,
@@ -115,7 +114,17 @@
     "hit_points": {
       "base": 6,
       "mod": "CON"
-    }
+    },
+    "levels": [],
+    "class_details": {
+      "trained": [],
+      "expert": [],
+      "master": [],
+      "legendary": []
+    },
+    "currency": 1.5,
+    "alignment": "NG",
+    "age": 18
   },
   "Gertrud Stalagmight": {
     "chapter": 5,
@@ -169,7 +178,17 @@
     "hit_points": {
       "base": 12,
       "mod": "CON"
-    }
+    },
+    "levels": [],
+    "class_details": {
+      "trained": [],
+      "expert": [],
+      "master": [],
+      "legendary": []
+    },
+    "currency": 1.5,
+    "alignment": "NG",
+    "age": 18
   },
   "Grikx, Son of Glert": {
     "chapter": 6,
@@ -224,6 +243,16 @@
     "hit_points": {
       "base": 6,
       "mod": "CON"
-    }
+    },
+    "levels": [],
+    "class_details": {
+      "trained": [],
+      "expert": [],
+      "master": [],
+      "legendary": []
+    },
+    "currency": 1.5,
+    "alignment": "NG",
+    "age": 18
   }
 }

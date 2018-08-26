@@ -2,8 +2,23 @@
   "chapter": 6,
   "name": "Grikx, Son of Glert",
   "ancestry": "Goblin",
+  "age": 18,
   "background": "Scholar",
   "class": "Wizard",
+  "class_details": {
+    "trained": [
+
+    ],
+    "expert": [
+
+    ],
+    "master": [
+
+    ],
+    "legendary": [
+
+    ]
+  },
   "attributes": {
     "STR": {
       "base": 10,
@@ -30,12 +45,21 @@
       "mod": 2
     }
   },
-  "gender": "male",
   "ac-touch": 12,
+  "bulk": {
+    "encumbered": 5,
+    "max": 10
+  },
+  "hero_points": 1,
+  "resonance_points": 2,
+  "gender": "male",
+  "level": 0,
   "abilities": [
     "Assurance skill in Arcana",
     "Academia Lore"
   ],
   "hit_points": 6,
+  "currency": 1.5,
+  "alignment": "NG",
   "ac": 12
 }

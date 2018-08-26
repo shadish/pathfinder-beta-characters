@@ -2,8 +2,23 @@
   "chapter": 5,
   "name": "Gertrud Stalagmight",
   "ancestry": "Dwarf",
+  "age": 18,
   "background": "Gladiator",
   "class": "Barbarian",
+  "class_details": {
+    "trained": [
+
+    ],
+    "expert": [
+
+    ],
+    "master": [
+
+    ],
+    "legendary": [
+
+    ]
+  },
   "attributes": {
     "STR": {
       "base": 14,
@@ -31,8 +46,17 @@
     }
   },
   "ac": 11,
-  "hit_points": 13,
   "ac-touch": 11,
+  "bulk": {
+    "encumbered": 7,
+    "max": 12
+  },
+  "hero_points": 1,
+  "resonance_points": 1,
+  "hit_points": 13,
+  "level": 0,
+  "currency": 1.5,
+  "alignment": "NG",
   "abilities": [
     "Fascinating Performance",
     "Gladiatorial Lore"

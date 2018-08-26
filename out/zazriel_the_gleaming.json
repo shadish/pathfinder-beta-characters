@@ -2,8 +2,23 @@
   "chapter": 3,
   "name": "Zazriel the Gleaming",
   "ancestry": "Elf",
+  "age": 18,
   "background": "Noble",
   "class": "Sorcerer (diviner)",
+  "class_details": {
+    "trained": [
+
+    ],
+    "expert": [
+
+    ],
+    "master": [
+
+    ],
+    "legendary": [
+
+    ]
+  },
   "attributes": {
     "STR": {
       "base": 10,
@@ -31,11 +46,20 @@
     }
   },
   "ac": 12,
+  "ac-touch": 12,
+  "bulk": {
+    "encumbered": 5,
+    "max": 10
+  },
+  "hero_points": 1,
+  "resonance_points": 2,
   "abilities": [
     "Courtly Graces",
     "Nobility Lore"
   ],
-  "ac-touch": 12,
+  "level": 0,
   "hit_points": 5,
+  "currency": 1.5,
+  "alignment": "NG",
   "gender": "male"
 }

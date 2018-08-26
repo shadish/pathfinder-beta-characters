@@ -45,15 +45,21 @@
       "mod": 1
     }
   },
+  "ac": 12,
   "ac-touch": 12,
-  "gender": "male",
+  "bulk": {
+    "encumbered": 8,
+    "max": 13
+  },
+  "hero_points": 1,
+  "resonance_points": 1,
+  "hit_points": 12,
+  "level": 0,
+  "currency": 1.5,
+  "alignment": "NG",
   "abilities": [
     "Assurance skill feat with Survival",
     "Mountain Lore"
   ],
-  "hit_points": 12,
-  "currency": 1.5,
-  "alignment": "NG",
-  "ac": 12,
-  "tac": 10
+  "gender": "male"
 }

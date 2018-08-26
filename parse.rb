@@ -18,14 +18,31 @@ characters.each do |k,c|
 	hp_mod = get_mod(c,'CON')
 	c['hit_points'] = c['hit_points']['base'] + hp_mod
 
-	# remove unused properties
-	c.delete('ability_flaws')
-	c.delete('ability_boosts')
-
 	# calculate AC
 	c['ac'] = 10 + get_mod(c,'DEX')
 	c['ac-touch'] = 10 + get_mod(c,'DEX')
 	#TODO: page 16 TAC with armor
+
+	#TODO: page 17 weapon strike/ranged with weapon prof.
+
+	# bulk
+	c['bulk'] = {
+		:encumbered => 5 + get_mod(c,'STR'),
+		:max => 10 + get_mod(c,'STR')
+	}
+
+	c['hero_points'] = 1
+	c['resonance_points'] = c['levels'].length + get_mod(c,'CHR') 
+
+	 c['level'] =  c['levels'].length 
+
+	# perception
+	#TODO: preception prof. + WIS mod	
+
+	# remove unused properties
+	c.delete('ability_flaws')
+	c.delete('ability_boosts')
+	c.delete('levels')
 
 	# sort keys
 	c = sort_keys(c)
