@@ -50,16 +50,44 @@
       "base": 10,
       "mod": "CON"
     },
-    "levels": [{}],
+    "levels": [
+      {},
+      {},
+      {},
+      {}
+    ],
     "class_details": {
-      "trained": [],
-      "expert": [],
-      "master": [],
-      "legendary": []
+      "key_ability": "STR",
+      "preception": "expert",
+      "saving_throws": {
+        "fortitude": "expert",
+        "reflex": "expert",
+        "will": "trained"
+      },
+      "skill_base_count": {
+        "base": 3,
+        "mod": "INT"
+      },
+      "weapon": {
+        "simple": "expert",
+        "martial": "expert",
+        "exotic": "trained"
+      },
+      "armor": {
+        "armor": "all",
+        "shields": "all"
+      }
     },
     "currency": 1.5,
     "alignment": "NG",
-    "age": 18
+    "age": 18,
+    "skills": {
+      "signature": [
+        "Acrobatics",
+        "Athletics",
+        "Crafting"
+      ]
+    }
   },
   "Zazriel the Gleaming": {
     "chapter": 3,
@@ -115,16 +143,49 @@
       "base": 6,
       "mod": "CON"
     },
-    "levels": [{}],
+    "levels": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
     "class_details": {
-      "trained": [],
-      "expert": [],
-      "master": [],
-      "legendary": []
+      "key_ability": "CHR",
+      "preception": "trained",
+      "saving_throws": {
+        "fortitude": "trained",
+        "reflex": "trained",
+        "will": "expert"
+      },
+      "skill_base_count": {
+        "base": 5,
+        "mod": "INT"
+      },
+      "weapon": {
+        "simple": "trained"
+      },
+      "armor": {
+        "armor": "untrained",
+        "shields": "untrained"
+      },
+      "spells": {
+        "rolls": "divine",
+        "DCs": "divine",
+        "page": "129-130"
+      }
     },
     "currency": 1.5,
     "alignment": "NG",
-    "age": 18
+    "age": 18,
+    "skills": {
+      "signature": [
+        "crafting",
+        "one more based on bloodline (angelic)"
+      ]
+    }
   },
   "Gertrud Stalagmight": {
     "chapter": 5,
@@ -179,16 +240,51 @@
       "base": 12,
       "mod": "CON"
     },
-    "levels": [{}],
+    "levels": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
     "class_details": {
-      "trained": [],
-      "expert": [],
-      "master": [],
-      "legendary": []
+      "key_ability": "STR",
+      "preception": "expert",
+      "saving_throws": {
+        "fortitude": "expert",
+        "reflex": "trained",
+        "will": "expert"
+      },
+      "skill_base_count": {
+        "base": 3,
+        "mod": "INT"
+      },
+      "weapon": {
+        "simple": "trained",
+        "martial": "trained"
+      },
+      "armor": {
+        "light": "trained",
+        "medium": "trained"
+      }
     },
     "currency": 1.5,
     "alignment": "NG",
-    "age": 18
+    "age": 18,
+    "skills": {
+      "signature": [
+        "Acrobatics",
+        "Athletics",
+        "Intimidation"
+      ]
+    }
   },
   "Grikx, Son of Glert": {
     "chapter": 6,
@@ -244,15 +340,57 @@
       "base": 6,
       "mod": "CON"
     },
-    "levels": [{}],
+    "levels": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
     "class_details": {
-      "trained": [],
-      "expert": [],
-      "master": [],
-      "legendary": []
+      "key_ability": "INT",
+      "preception": "trained",
+      "saving_throws": {
+        "fortitude": "trained",
+        "reflex": "trained",
+        "will": "expert"
+      },
+      "skill_base_count": {
+        "base": 2,
+        "mod": "INT"
+      },
+      "weapon": {
+        "club": "trained",
+        "dagged": "trained",
+        "heavy_crossbow": "trained",
+        "light_crossbow": "trained",
+        "staff": "trained"
+      },
+      "armor": {},
+      "spells": {
+        "rolls": "arcane (trained)",
+        "DCs": "arcane (trained)",
+        "attack_roles": "for arcane spells",
+        "page": "135"
+      }
     },
     "currency": 1.5,
     "alignment": "NG",
-    "age": 18
+    "age": 18,
+    "skills": {
+      "signature": [
+        "Arcana",
+        "craftingg"
+      ]
+    }
   }
 }

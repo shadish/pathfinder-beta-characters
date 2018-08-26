@@ -6,18 +6,25 @@
   "background": "Gladiator",
   "class": "Barbarian",
   "class_details": {
-    "trained": [
-
-    ],
-    "expert": [
-
-    ],
-    "master": [
-
-    ],
-    "legendary": [
-
-    ]
+    "key_ability": "STR",
+    "preception": "expert",
+    "saving_throws": {
+      "fortitude": "expert",
+      "reflex": "trained",
+      "will": "expert"
+    },
+    "skill_base_count": {
+      "base": 3,
+      "mod": "INT"
+    },
+    "weapon": {
+      "simple": "trained",
+      "martial": "trained"
+    },
+    "armor": {
+      "light": "trained",
+      "medium": "trained"
+    }
   },
   "attributes": {
     "STR": {
@@ -45,10 +52,6 @@
       "mod": 1
     }
   },
-  "abilities": [
-    "Fascinating Performance",
-    "Gladiatorial Lore"
-  ],
   "gender": "female",
   "ac": 11,
   "ac-touch": 11,
@@ -57,14 +60,25 @@
     "max": 12
   },
   "hero_points": 1,
-  "resonance_points": 2,
-  "level": 1,
-  "currency": 1.5,
+  "resonance_points": 13,
+  "level": 12,
+  "hit_points": 13,
   "saving_throws": {
     "fortitude": 1,
     "reflex": 1,
     "will": 2
   },
+  "currency": 1.5,
   "alignment": "NG",
-  "hit_points": 13
+  "skills": {
+    "signature": [
+      "Acrobatics",
+      "Athletics",
+      "Intimidation"
+    ]
+  },
+  "abilities": [
+    "Fascinating Performance",
+    "Gladiatorial Lore"
+  ]
 }

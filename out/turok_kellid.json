@@ -6,18 +6,26 @@
   "background": "Nomad",
   "class": "Fighter",
   "class_details": {
-    "trained": [
-
-    ],
-    "expert": [
-
-    ],
-    "master": [
-
-    ],
-    "legendary": [
-
-    ]
+    "key_ability": "STR",
+    "preception": "expert",
+    "saving_throws": {
+      "fortitude": "expert",
+      "reflex": "expert",
+      "will": "trained"
+    },
+    "skill_base_count": {
+      "base": 3,
+      "mod": "INT"
+    },
+    "weapon": {
+      "simple": "expert",
+      "martial": "expert",
+      "exotic": "trained"
+    },
+    "armor": {
+      "armor": "all",
+      "shields": "all"
+    }
   },
   "attributes": {
     "STR": {
@@ -45,10 +53,6 @@
       "mod": 1
     }
   },
-  "abilities": [
-    "Assurance skill feat with Survival",
-    "Mountain Lore"
-  ],
   "gender": "male",
   "ac": 12,
   "ac-touch": 12,
@@ -57,14 +61,25 @@
     "max": 13
   },
   "hero_points": 1,
-  "resonance_points": 2,
-  "level": 1,
-  "currency": 1.5,
+  "resonance_points": 5,
+  "level": 4,
+  "hit_points": 12,
   "saving_throws": {
     "fortitude": 2,
     "reflex": 2,
     "will": 1
   },
+  "currency": 1.5,
   "alignment": "NG",
-  "hit_points": 12
+  "skills": {
+    "signature": [
+      "Acrobatics",
+      "Athletics",
+      "Crafting"
+    ]
+  },
+  "abilities": [
+    "Assurance skill feat with Survival",
+    "Mountain Lore"
+  ]
 }
