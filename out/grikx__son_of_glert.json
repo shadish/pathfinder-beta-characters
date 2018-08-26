@@ -45,21 +45,26 @@
       "mod": 2
     }
   },
+  "saving_throws": {
+    "fortitude": 0,
+    "reflex": 2,
+    "will": 1
+  },
+  "abilities": [
+    "Assurance skill in Arcana",
+    "Academia Lore"
+  ],
+  "gender": "male",
+  "alignment": "NG",
+  "currency": 1.5,
+  "ac": 12,
   "ac-touch": 12,
   "bulk": {
     "encumbered": 5,
     "max": 10
   },
   "hero_points": 1,
-  "resonance_points": 2,
-  "gender": "male",
-  "level": 0,
-  "abilities": [
-    "Assurance skill in Arcana",
-    "Academia Lore"
-  ],
-  "hit_points": 6,
-  "currency": 1.5,
-  "alignment": "NG",
-  "ac": 12
+  "resonance_points": 3,
+  "level": 1,
+  "hit_points": 6
 }

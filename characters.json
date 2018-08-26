@@ -50,7 +50,7 @@
       "base": 10,
       "mod": "CON"
     },
-    "levels": [],
+    "levels": [{}],
     "class_details": {
       "trained": [],
       "expert": [],
@@ -115,7 +115,7 @@
       "base": 6,
       "mod": "CON"
     },
-    "levels": [],
+    "levels": [{}],
     "class_details": {
       "trained": [],
       "expert": [],
@@ -179,7 +179,7 @@
       "base": 12,
       "mod": "CON"
     },
-    "levels": [],
+    "levels": [{}],
     "class_details": {
       "trained": [],
       "expert": [],
@@ -244,7 +244,7 @@
       "base": 6,
       "mod": "CON"
     },
-    "levels": [],
+    "levels": [{}],
     "class_details": {
       "trained": [],
       "expert": [],

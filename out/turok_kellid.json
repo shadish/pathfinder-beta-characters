@@ -45,6 +45,11 @@
       "mod": 1
     }
   },
+  "abilities": [
+    "Assurance skill feat with Survival",
+    "Mountain Lore"
+  ],
+  "gender": "male",
   "ac": 12,
   "ac-touch": 12,
   "bulk": {
@@ -52,14 +57,14 @@
     "max": 13
   },
   "hero_points": 1,
-  "resonance_points": 1,
-  "hit_points": 12,
-  "level": 0,
+  "resonance_points": 2,
+  "level": 1,
   "currency": 1.5,
+  "saving_throws": {
+    "fortitude": 2,
+    "reflex": 2,
+    "will": 1
+  },
   "alignment": "NG",
-  "abilities": [
-    "Assurance skill feat with Survival",
-    "Mountain Lore"
-  ],
-  "gender": "male"
+  "hit_points": 12
 }

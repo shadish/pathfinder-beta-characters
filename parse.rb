@@ -31,6 +31,7 @@ characters.each do |k,c|
 		:max => 10 + get_mod(c,'STR')
 	}
 
+	# points
 	c['hero_points'] = 1
 	c['resonance_points'] = c['levels'].length + get_mod(c,'CHR') 
 
@@ -38,6 +39,12 @@ characters.each do |k,c|
 
 	# perception
 	#TODO: preception prof. + WIS mod	
+
+	c['saving_throws'] = {
+		'fortitude' => get_mod(c,'CON'),
+		'reflex' => get_mod(c,'DEX'),
+		'will' => get_mod(c,'WIS')
+	}
 
 	# remove unused properties
 	c.delete('ability_flaws')

@@ -45,6 +45,11 @@
       "mod": 1
     }
   },
+  "abilities": [
+    "Fascinating Performance",
+    "Gladiatorial Lore"
+  ],
+  "gender": "female",
   "ac": 11,
   "ac-touch": 11,
   "bulk": {
@@ -52,14 +57,14 @@
     "max": 12
   },
   "hero_points": 1,
-  "resonance_points": 1,
-  "hit_points": 13,
-  "level": 0,
+  "resonance_points": 2,
+  "level": 1,
   "currency": 1.5,
+  "saving_throws": {
+    "fortitude": 1,
+    "reflex": 1,
+    "will": 2
+  },
   "alignment": "NG",
-  "abilities": [
-    "Fascinating Performance",
-    "Gladiatorial Lore"
-  ],
-  "gender": "female"
+  "hit_points": 13
 }

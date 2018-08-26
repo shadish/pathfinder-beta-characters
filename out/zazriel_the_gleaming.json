@@ -45,6 +45,18 @@
       "mod": 2
     }
   },
+  "saving_throws": {
+    "fortitude": -1,
+    "reflex": 2,
+    "will": 2
+  },
+  "abilities": [
+    "Courtly Graces",
+    "Nobility Lore"
+  ],
+  "gender": "male",
+  "alignment": "NG",
+  "currency": 1.5,
   "ac": 12,
   "ac-touch": 12,
   "bulk": {
@@ -52,14 +64,7 @@
     "max": 10
   },
   "hero_points": 1,
-  "resonance_points": 2,
-  "abilities": [
-    "Courtly Graces",
-    "Nobility Lore"
-  ],
-  "level": 0,
-  "hit_points": 5,
-  "currency": 1.5,
-  "alignment": "NG",
-  "gender": "male"
+  "resonance_points": 3,
+  "level": 1,
+  "hit_points": 5
 }
