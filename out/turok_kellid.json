@@ -4,6 +4,14 @@
   "ancestry": "Human",
   "age": 18,
   "background": "Nomad",
+  "skills": {
+    "signature": [
+      "Acrobatics",
+      "Athletics",
+      "Crafting"
+    ]
+  },
+  "ac": 12,
   "class": "Fighter",
   "class_details": {
     "key_ability": "STR",
@@ -53,13 +61,6 @@
       "mod": 1
     }
   },
-  "gender": "male",
-  "ac": 12,
-  "ac-touch": 12,
-  "bulk": {
-    "encumbered": 8,
-    "max": 13
-  },
   "hero_points": 1,
   "resonance_points": 5,
   "level": 4,
@@ -71,15 +72,14 @@
   },
   "currency": 1.5,
   "alignment": "NG",
-  "skills": {
-    "signature": [
-      "Acrobatics",
-      "Athletics",
-      "Crafting"
-    ]
-  },
   "abilities": [
     "Assurance skill feat with Survival",
     "Mountain Lore"
-  ]
+  ],
+  "gender": "male",
+  "ac-touch": 12,
+  "bulk": {
+    "encumbered": 8,
+    "max": 13
+  }
 }

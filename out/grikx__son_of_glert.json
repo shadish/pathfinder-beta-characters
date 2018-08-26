@@ -4,6 +4,13 @@
   "ancestry": "Goblin",
   "age": 18,
   "background": "Scholar",
+  "skills": {
+    "signature": [
+      "Arcana",
+      "craftingg"
+    ]
+  },
+  "ac": 12,
   "class": "Wizard",
   "class_details": {
     "key_ability": "INT",
@@ -59,13 +66,6 @@
       "mod": 2
     }
   },
-  "level_info": "3 spells per day for each level up to/including 7th (p.137)",
-  "ac": 12,
-  "ac-touch": 12,
-  "bulk": {
-    "encumbered": 5,
-    "max": 10
-  },
   "hero_points": 1,
   "resonance_points": 16,
   "level": 14,
@@ -82,10 +82,10 @@
   "hit_points": 6,
   "currency": 1.5,
   "alignment": "NG",
-  "skills": {
-    "signature": [
-      "Arcana",
-      "craftingg"
-    ]
+  "level_info": "3 spells per day for each level up to/including 7th (p.137)",
+  "ac-touch": 12,
+  "bulk": {
+    "encumbered": 5,
+    "max": 10
   }
 }

@@ -4,6 +4,13 @@
   "ancestry": "Elf",
   "age": 18,
   "background": "Noble",
+  "skills": {
+    "signature": [
+      "crafting",
+      "one more based on bloodline (angelic)"
+    ]
+  },
+  "ac": 12,
   "class": "Sorcerer (diviner)",
   "class_details": {
     "key_ability": "CHR",
@@ -56,13 +63,6 @@
       "mod": 2
     }
   },
-  "gender": "male",
-  "ac": 12,
-  "ac-touch": 12,
-  "bulk": {
-    "encumbered": 5,
-    "max": 10
-  },
   "hero_points": 1,
   "resonance_points": 9,
   "level": 7,
@@ -78,10 +78,10 @@
   "hit_points": 5,
   "currency": 1.5,
   "alignment": "NG",
-  "skills": {
-    "signature": [
-      "crafting",
-      "one more based on bloodline (angelic)"
-    ]
+  "gender": "male",
+  "ac-touch": 12,
+  "bulk": {
+    "encumbered": 5,
+    "max": 10
   }
 }

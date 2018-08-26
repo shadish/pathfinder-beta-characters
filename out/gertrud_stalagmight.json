@@ -4,6 +4,14 @@
   "ancestry": "Dwarf",
   "age": 18,
   "background": "Gladiator",
+  "skills": {
+    "signature": [
+      "Acrobatics",
+      "Athletics",
+      "Intimidation"
+    ]
+  },
+  "ac": 11,
   "class": "Barbarian",
   "class_details": {
     "key_ability": "STR",
@@ -52,13 +60,6 @@
       "mod": 1
     }
   },
-  "gender": "female",
-  "ac": 11,
-  "ac-touch": 11,
-  "bulk": {
-    "encumbered": 7,
-    "max": 12
-  },
   "hero_points": 1,
   "resonance_points": 13,
   "level": 12,
@@ -70,15 +71,14 @@
   },
   "currency": 1.5,
   "alignment": "NG",
-  "skills": {
-    "signature": [
-      "Acrobatics",
-      "Athletics",
-      "Intimidation"
-    ]
-  },
   "abilities": [
     "Fascinating Performance",
     "Gladiatorial Lore"
-  ]
+  ],
+  "gender": "female",
+  "ac-touch": 11,
+  "bulk": {
+    "encumbered": 7,
+    "max": 12
+  }
 }
