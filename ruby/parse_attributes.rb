@@ -1,11 +1,5 @@
 require 'json'
 
-
-
-# start_value = 10
-# abilities = ['STR','DEX','CON','INT','WIS','CHR']
-# mods = JSON::parse File.open('./mods.json').read()
-
 def mod(attr, mods)
 	low = mods.first.values[0]
 	mods.each do |m|
@@ -18,7 +12,7 @@ def mod(attr, mods)
 end
 
 def parse_attributes(c)
-	mods = JSON::parse File.open('./mods.json').read()
+	mods = JSON::parse File.open('../data/mods.json').read()
 	start_value = 10
 	abilities = ['STR','DEX','CON','INT','WIS','CHR']
 
@@ -48,6 +42,6 @@ def parse_attributes(c)
 	# hp_mod = attributes.select{|k,v| k === 'CON'}.first.last['mod'].to_i
 	# c['hit_points'] = c['hit_points']['base'] + hp_mod
 
-	# file_name = "./out/#{k.gsub(/\W/,'_').downcase}.json"
+	# file_name = "../out/#{k.gsub(/\W/,'_').downcase}.json"
 	# File.write file_name, JSON::pretty_generate(c)
 end

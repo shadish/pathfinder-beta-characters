@@ -6,7 +6,7 @@ def get_mod(c, mod)
 	c['attributes'].select{|k,v| k === mod}.first.last['mod'].to_i
 end
 
-characters = JSON::parse File.open('./characters.json').read()
+characters = JSON::parse File.open('../data/characters.json').read()
 characters.each do |k,c|
 	# add name
 	c['name'] = k
@@ -55,6 +55,6 @@ characters.each do |k,c|
 	c = sort_keys(c)
 
 	# save output
-	file_name = "./out/#{k.gsub(/\W/,'_').downcase}.json"
+	file_name = "../out/#{k.gsub(/\W/,'_').downcase}.json"
 	File.write file_name, JSON::pretty_generate(c)
 end
